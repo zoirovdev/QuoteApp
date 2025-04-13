@@ -3,6 +3,8 @@ const authorEl = document.getElementById("author");
 const btnEl = document.getElementById("btn");
 
 
+getData();
+
 async function getData(){
 	try {
 		const response = await fetch("https://qapi.vercel.app/api/random");
